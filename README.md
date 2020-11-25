@@ -14,6 +14,16 @@ A blog post: https://medium.com/titansoft-engineering/kubernetes-cluster-wide-ac
 
 ## Installation and configuration
 
+### Install with Helm
+```
+git clone https://github.com/renci-pjl/imagepullsecret-patcher.git
+cp imagepullsecret-patcher/helm/values.yaml ./my-values.yaml
+# Add credentials in imageCredentials section in my-values.yaml
+helm install imagepullsecret-patcher ./imagepullsecret-patcher/helm --values my-values.yaml
+```
+
+### Alternative Installation Instructions
+
 To install imagepullsecret-patcher, can refer to [deploy-example](deploy-example) as a quick-start.
 
 Below is a table of available configurations:
