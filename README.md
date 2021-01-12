@@ -16,10 +16,10 @@ A blog post: https://medium.com/titansoft-engineering/kubernetes-cluster-wide-ac
 
 ### Install with Helm
 ```
-git clone https://github.com/renci-pjl/imagepullsecret-patcher.git
-cp imagepullsecret-patcher/helm/values.yaml ./my-values.yaml
+helm repo add renci-pjl https://renci-pjl.github.io/imagepullsecret-patcher/charts
+helm inspect values renci-pjl/imagepullsecret-patcher > my-values.yaml
 # Add credentials in imageCredentials section in my-values.yaml
-helm install imagepullsecret-patcher ./imagepullsecret-patcher/helm --values my-values.yaml
+helm install imagepullsecret-patcher renci-pjl/imagepullsecret-patcher --values my-values.yaml
 ```
 
 ### Alternative Installation Instructions
