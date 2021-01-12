@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   imagepullsecret-patcher:
   - apiVersion: v2
+    appVersion: v0.14
+    created: "2021-01-12T14:08:19.280528-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 49d079faf6f661857a15a928571cbb9619297b197301e9ccda4807b281088836
+    name: imagepullsecret-patcher
+    type: application
+    urls:
+    - https://renci-pjl.github.io/imagepullsecret-patcher/charts/imagepullsecret-patcher-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: "0.14"
-    created: "2021-01-11T18:21:32.349241-05:00"
+    created: "2021-01-12T14:08:19.278499-05:00"
     description: A Helm chart for Kubernetes
     digest: efd3a8c91b165819b5269f85d5f08ac21b870844ac8c4112c17cf0fc46ba5526
     name: imagepullsecret-patcher
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://renci-pjl.github.io/imagepullsecret-patcher/charts/imagepullsecret-patcher-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-11T18:21:32.348172-05:00"
+generated: "2021-01-12T14:08:19.276959-05:00"
