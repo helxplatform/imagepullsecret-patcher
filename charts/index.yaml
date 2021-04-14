@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  imagepullsecret-patcher:
+  - apiVersion: v2
+    appVersion: 0.0.15
+    created: "2021-04-14T15:33:37.062994-04:00"
+    description: A simple Kubernetes [client-go](https://github.com/kubernetes/client-go) application that creates and patches imagePullSecrets to service accounts in all Kubernetes namespaces to allow cluster-wide authenticated access to a container registry.  This can be useful when your clusters hit Docker's image download limit for anonymous/free user accounts.
+    digest: 37ab493ad255e5e7a3955565b709b481653d30afda21acf83699455e964578ba
+    name: imagepullsecret-patcher
+    type: application
+    urls:
+    - https://helxplatform.github.io/imagepullsecret-patcher/charts/imagepullsecret-patcher-0.1.2.tgz
+    version: 0.1.2
+generated: "2021-04-14T15:33:37.062295-04:00"
