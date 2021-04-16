@@ -3,7 +3,17 @@ entries:
   imagepullsecret-patcher:
   - apiVersion: v2
     appVersion: 0.0.15
-    created: "2021-04-14T15:57:32.667697-04:00"
+    created: "2021-04-16T13:10:59.787609-04:00"
+    description: A simple Kubernetes [client-go](https://github.com/kubernetes/client-go) application that creates and patches imagePullSecrets to service accounts in all Kubernetes namespaces to allow cluster-wide authenticated access to a container registry.  This can be useful when your clusters hit Docker's image download limit for anonymous/free user accounts.
+    digest: 2471abe3d2fc5cd2ead40a51d183ff9f34638270a442221ac9d1ea06d3cc705f
+    name: imagepullsecret-patcher
+    type: application
+    urls:
+    - https://helxplatform.github.io/imagepullsecret-patcher/charts/imagepullsecret-patcher-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.0.15
+    created: "2021-04-16T13:10:59.786963-04:00"
     description: A simple Kubernetes [client-go](https://github.com/kubernetes/client-go) application that creates and patches imagePullSecrets to service accounts in all Kubernetes namespaces to allow cluster-wide authenticated access to a container registry.  This can be useful when your clusters hit Docker's image download limit for anonymous/free user accounts.
     digest: 1e0deeaafae1e65678e9f3f980b2dfa16283607a9aac1f5c056e1c8a5376ce65
     name: imagepullsecret-patcher
@@ -13,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.0.15
-    created: "2021-04-14T15:57:32.667199-04:00"
+    created: "2021-04-16T13:10:59.786001-04:00"
     description: A simple Kubernetes [client-go](https://github.com/kubernetes/client-go) application that creates and patches imagePullSecrets to service accounts in all Kubernetes namespaces to allow cluster-wide authenticated access to a container registry.  This can be useful when your clusters hit Docker's image download limit for anonymous/free user accounts.
     digest: 37ab493ad255e5e7a3955565b709b481653d30afda21acf83699455e964578ba
     name: imagepullsecret-patcher
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://helxplatform.github.io/imagepullsecret-patcher/charts/imagepullsecret-patcher-0.1.2.tgz
     version: 0.1.2
-generated: "2021-04-14T15:57:32.665975-04:00"
+generated: "2021-04-16T13:10:59.785332-04:00"
